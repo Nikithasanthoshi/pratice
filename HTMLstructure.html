@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            
+            height: 100vh;
+            color: white;
+            background-color: #2196f3;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        header h1{
+            text-align: center;
+            color: white;
+            
+        }
+        body{
+            margin: 0;
+            font-size: 15px;
+        }
+        .button{
+            height: 40px;
+            width: 140px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            margin: 15px;
+        }
+        .button:hover{
+            color: white;
+            background-color: darkblue;
+        }
+        img{
+            
+            height: 200px;
+        }
+        h1{
+            color:blue ;
+        }
+        main{
+            padding: 20px;
+            font-size: 1rem;
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 20px;
+            border-radius: 20px;
+            height: 100vh;
+            border: 1px solid gray;
+            padding: 7px;
+        }
+        .submit{
+            height: 40px;
+            width: 140px;
+            border: none;
+            border-radius: 10px;
+            cursor:pointer;
+            color: white;
+            background-color: #2196f3;
+        }
+        .submit:hover{
+            
+            background-color:#0e81df;
+        }
+        input{
+            border-radius: 5px;
+            border: 1px solid lightgray;
+            height: 25px;
+        }
+        .fixedbutton{
+            position: fixed;
+            bottom: 10px;
+            right:10px;
+            height: 70px;
+            width: 70px;
+            border: none;
+            border-radius: 50%;
+            cursor: pointer;
+            color: white;
+            background-color: #2196f3;
+        }
+        footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 124px;
+            background-color: black;
+            color: lightgrey;
+        }
+        a{
+            text-decoration: none;
+        }
+        form div{
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        
+        <h1>Welcome To My Portfolio</h1>
+        <br>
+        <div >
+
+    
+        <a href="#About">
+        
+    
+        <Botton type="submit"  class="button">About</Botton>
+        </a>
+        <a href="#Skills">
+        
+    
+        <Botton class="button">Skils</Botton>
+        </a>
+        <a href="#Project">
+        
+        <Botton class="button">Projects</Botton>
+        </a>
+        <a href="#Contact">
+        
+    
+        <Botton class="button">Contact</Botton>
+        </a>
+        </div>
+                
+    
+    
+        
+
+    </header>
+    <main>
+        <section id="About">
+            <h1>D.N.Santhoshi</h1>
+
+            <img src="passport pic.jpeg">
+
+            <p> 
+            I am a passionate web developer with a focus on front-end technologies.<br><br>
+            I am currently pursuing my B.Tech in <em>sathyabama university</em> Tamilnadu<br><br>
+            I have learnt web development from<br>
+            code with Swaroop<br><br>
+            You can <strong>click here</strong> to checkout What I have Learnt in HTML.CSS.JS
+
+            </p>
+            
+        </section>
+        <section id="Skills">
+            <h1>My Skills</h1>
+    <ol>
+        <li>C basics</li>
+        <li>HTML basics</li>
+        <li>CSS basics</li>
+        <li>JavaScript</li>
+    </ol>
+
+
+        </section>
+        <section id="Project">
+            <h1>My Projects</h1>
+            <table border="2">
+                <tr>
+                    <th>Python</th>
+                    <th>Description</th>
+                    
+                </tr>
+                <tr>
+                    <td>Wed Development</td>
+                    <td>I have build My Portfolio</td>
+                </tr>
+                <tr>
+                    <td>python</td>
+                    <td>I have built a project on python</td>
+                </tr>
+            </table>
+                
+            
+            
+
+        </section>
+        <section id="Contact">
+            <h1>Contact Me</h1><br>
+            <p>Gtting Touch With Me</p><br>
+            <form>
+                <div>
+            <label for="name" >Name:</label>
+            <input type="text" id="name"></div>
+            <div>
+            <label for="Email">Email</label>
+            <input type="Email" id="mail" required></div>
+            <div>
+            <label>Choose your Gender:</label>
+            <input type="radio" id="male">
+            <label for="male">Male</label>
+            
+            <input type="radio" id="gender">
+            <label for="Femail">Female</label></div>
+            <div>
+            <label>Select Your Interest:</label>
+            <input type="radio">
+            <label for="coding" >Coding</label>
+            <input type="radio">
+            <label for="Reading">Reading</label></div>
+            <div>
+            <label for="Bio">Bio (up to 20 chrs):</label>
+            <input type="text">
+            </div>
+            <a href="">
+            <Botton type="Submit" class="submit">Submit</Botton>
+            </a>
+        
+            </form>
+
+
+        </section>
+
+    </main>
+    <a href="">
+    <Botton class="fixedbutton">Top</Botton>
+    </a>
+            
+    <footer>
+        <p>2024 My Portfolio</p>
+
+    </footer>
+
+
+</body>
+</html>
+   
